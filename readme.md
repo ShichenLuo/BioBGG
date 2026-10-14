@@ -42,15 +42,3 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\python -m pip install --upgrade pip
 .\.venv\Scripts\python -m pip install -e .
 ```
-
-To also install dependencies for the bundled STAGIN analysis/helper scripts
-and other baseline scripts, use `python -m pip install -e ".[stagin,baselines]"`.
-STAGIN's `brainplot.py` also needs the `gl` module provided by MRIcroGL's
-embedded Python environment; it is not a pip dependency.
-
-For the CUDA 11.8 build documented above, install PyTorch first:
-
-```bash
-python -m pip install torch==2.1.2 torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu118
-python -m pip install -e .
-```
