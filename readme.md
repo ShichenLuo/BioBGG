@@ -1,5 +1,9 @@
 # BioBGG
 
+## Paper
+
+[Biologically Interpretable Graph Generation for Brain Graph Analysis](Biologically_Interpretable_Graph_Generation_for_Brain_Graph_Analysis.pdf)
+
 ## Datasets
 ### ABIDE
 The ABIDE dataset is openly accessible to all users. We have provided the time series data from the ABIDE dataset in the ./TimeSeries directory. Alternatively, you can download it by following the instructions on the [ABIDE website](http://preprocessed-connectomes-project.org/abide/download.html).
